@@ -1,0 +1,15 @@
+      
+#Inteto 6 de movimiento diagonal      
+      movements = ([[-1, -1, 1.4],
+                    [0, -1, 1],
+                    [1, -1, 1.4],
+                    [-1, 0, 1],
+                    [-1, 1, 1.4],
+                    [0, 1, 1],
+                    [1, 1, 1.4]])
+
+#Para ir solo en vertical y horizontal
+movements = ([[0, -1, 1],
+              [-1, 0, 1],
+              [1, 0, 1],
+              [0, 1, 1]])
